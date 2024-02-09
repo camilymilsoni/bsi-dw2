@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário/Tabela</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu">
+        <a href="paginaInicio.html">Início</a>
+        <a href="paginaBusca.html">Busca</a>
+        <a href="paginaForm.html">Formulário/Tabela</a>
+        <a href="paginaPost.html">Postagem c/ imagem</a>
+    </div>
+    <div class="secaoForm">
+        <h1>Formulário de cadastro e Tabela com dados</h1>
+        <div class="containerForm">
+          <div class="secaoCadastro">
+            <form>
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome">
+              <label for="telefone">Telefone</label>
+              <input type="text" id="telefone" name="telefone" placeholder="(99) 99999-9999">
+              <label for="email">E-mail</label>
+              <input type="text" id="email" name="email" placeholder="seu@email.aqui">
+              <label for="estado">Estado de residência</label>
+              <select id="estado" name="estado">
+                <option disabled selected>[Selecione]</option>
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="es">Espírito Santo</option>
+                <option value="pr">Paraná</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="rs">Rio Grande do Sul</option>
+              </select>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Limpar">
+            </form>
+          </div>
+          <div class="secaoTabela">
+            <table>
+              <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>E-mail</th>
+                <th>Estado</th>
+              </tr>
+              <tr>
+                <td>José da Silva</td>
+                <td>(11) 99785-4871</td>
+                <td>josesilva11@gmail.com</td>
+                <td>Santa Catarina</td>
+              </tr>
+              <tr>
+                <td>Marcos William Freitas</td>
+                <td>(11) 99784-4812</td>
+                <td>mwfreitas@microsoft.com</td>
+                <td>São Paulo</td>
+              </tr>
+              <tr>
+                <td>Ana Luiza dos Reis Barco</td>
+                <td>(14) 81475-4812</td>
+                <td>anareis@microsoft.com</td>
+                <td>São Paulo</td>
+              </tr>
+              <tr>
+                <td>Keila Santanna de Souza</td>
+                <td>(17) 99744-1155</td>
+                <td>keilasantanna@outlook.com</td>
+                <td>São Paulo</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+    </div>
+</body>
+</html>

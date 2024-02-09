@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+
+.menu{
+    background-color: lightsteelblue;
+    padding: 1.2vw;
+    text-align: end;
+}
+
+.menu > a{
+    padding: 1.2vw;
+    color: black;
+    text-decoration: none;
+}
+
+.menu > a:hover{
+    background-color: lightgrey;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.secaoInicio{
+    font-family: 'Share', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 2.5vw;
+}
+
+.secaoBusca{
+    background: url("https://t3.ftcdn.net/jpg/04/40/13/78/360_F_440137850_sBJOKpItVGgxB2XgCY4pxJECaU3QTEXC.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 2.6vw;
+    padding-bottom: 8vw;
+    font-size: 1.5vw;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    color: orange;
+}
+
+.secaoBusca > form > input, button{
+    font-size: 1.5vw;
+}
+
+.secao2Busca{
+    padding: 2vw;
+    padding-top: 3vw;
+}
+
+.secaoForm > h1{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-size: 2.4vw;
+}
+
+.containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.secaoCadastro{
+    background-color: rgb(234, 231, 231);
+    border-radius: 0.2vw;
+    padding: 1.2vw;
+    margin-right: 3vw;
+}
+
+.secaoCadastro > form > input[type=text], select{
+    display: flex;
+    width: 25vw;
+    padding: 0.8vw;
+    margin: 0.5vw;
+    border: 0.1vw solid #ccc;
+    border-radius: 0.2vw;
+    box-sizing: border-box;
+}
+  
+.secaoCadastro > form > input[type=submit], input[type=reset]{
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    color: white;
+    padding: 0.8vw;
+    margin: 0.5vw;
+    margin-top: 1vw;
+    border: none;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+
+.secaoCadastro > form > input[type=submit]{
+    background-color: rgb(76,175,80);
+}
+
+.secaoCadastro > form > input[type=reset]{
+    background-color:rgb(250, 203, 14);
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50vw;
+}
+
+th{
+    background-color: mediumseagreen;
+    color: white;
+}
+  
+td, th{
+    border: 0.1vw solid lightgray;
+    text-align: left;
+    padding: 0.5vw;
+}
+  
+tr:nth-child(even){
+    background-color: rgb(234, 231, 231);
+}
+
+.secaoPost > h1{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-size: 2.4vw;
+    margin-bottom: 0;
+}
+
+.containerPost{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3vw;
+    padding-top: 2vw;
+    padding-left: 0.5vw;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.1vw;
+    text-align: justify;
+}
+
+.secaoImg > figure > img{
+    width: 32vw;
+    height: 18vw;
+    border-radius: 0.5vw;
+}
+
+.secaoTxt > h2{
+    font-size: 2vw;
+    margin: 0;
+}
