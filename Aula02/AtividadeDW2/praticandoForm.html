@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando - Formulário de cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container my-3">
+        <h1>Formulário de cadastro</h1>
+        <hr>
+        <div class="row g-5">
+            <div class="col-lg-8">
+                <form>
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <label for="nome" class="form-label">Nome completo</label>
+                            <input type="text" class="form-control" id="nome" name="nome" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(DD)XXXXX-XXXX" required 
+                                   pattern="\([0-9]{2}\)[0-9]{4,6}-[0-9]{3,4}$" title="Digite o telefone no formato (DD)XXXXX-XXXX">
+                        </div>
+                        <div class="col-md-8">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="cpf" class="form-label">CPF</label>
+                            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" required
+                                   pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite o CPF no formato XXX.XXX.XXX-XX">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="datanasc" class="form-label">Data de Nascimento</label>
+                            <input type="date" class="form-control" id="datanasc" name="datanasc" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="cep" class="form-label">CEP</label>
+                            <input type="text" class="form-control" id="cep" name="cep" placeholder="XX.XXX-XXX" required
+                                   pattern="\d{2}\.\d{3}-\d{3}" title="Digite o CEP no formato XX.XXX-XXX">
+                        </div>
+                        <div class="col-md-8">
+                            <label for="endereco" class="form-label">Endereço</label>
+                            <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Rua, n° e bairro" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="cidade" class="form-label">Cidade</label>
+                            <select class="form-select" id="cidade" name="cidade" required>
+                                <option disabled selected>[Selecione]</option>
+                                <option value="sjrp">São José do Rio Preto - SP</option>
+                                <option value="votuporanga">Votuporanga - SP</option>
+                                <option value="fernandopolis">Fernandópolis - SP</option>
+                                <option value="jales">Jales - SP</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="foto" class="form-label">Foto de perfil</label>
+                            <input class="form-control" type="file" id="foto" name="foto" accept="image/*" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="contrato" class="form-label">Contrato assinado (em PDF)</label>
+                            <input class="form-control" type="file" id="contrato" name="contrato" accept=".pdf, .doc, .docx" required>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <button class="btn btn-primary" type="submit">Cadastrar</button>
+                        <button class="btn btn-warning" type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4 text-center my-auto">
+                <img src="https://cdn-icons-png.flaticon.com/512/1484/1484799.png" alt="ícone" class="img-fluid" width="250vw">    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
