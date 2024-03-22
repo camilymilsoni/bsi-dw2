@@ -1,0 +1,32 @@
+ 1  | inicio.php   | 22/03/2024 - 10:07:08 | Chrome
+ 1  | sobre.php    | 22/03/2024 - 10:07:11 | Chrome
+ 1  | contato.php  | 22/03/2024 - 10:07:13 | Chrome
+ 2  | inicio.php   | 22/03/2024 - 10:07:16 | Chrome
+ 2  | contato.php  | 22/03/2024 - 10:07:18 | Chrome
+ 2  | sobre.php    | 22/03/2024 - 10:07:20 | Chrome
+ 3  | contato.php  | 22/03/2024 - 10:07:21 | Chrome
+ 3  | inicio.php   | 22/03/2024 - 10:10:39 | Edge
+ 3  | sobre.php    | 22/03/2024 - 10:10:41 | Edge
+ 4  | inicio.php   | 22/03/2024 - 10:10:42 | Edge
+ 5  | inicio.php   | 22/03/2024 - 10:10:43 | Edge
+ 6  | inicio.php   | 22/03/2024 - 10:10:43 | Edge
+ 7  | inicio.php   | 22/03/2024 - 10:10:43 | Edge
+ 8  | inicio.php   | 22/03/2024 - 10:15:29 | Firefox
+ 4  | contato.php  | 22/03/2024 - 10:15:30 | Firefox
+ 9  | inicio.php   | 22/03/2024 - 10:15:31 | Firefox
+ 5  | contato.php  | 22/03/2024 - 10:15:32 | Firefox
+10  | inicio.php   | 22/03/2024 - 10:15:32 | Firefox
+ 6  | contato.php  | 22/03/2024 - 10:15:33 | Firefox
+11  | inicio.php   | 22/03/2024 - 10:17:55 | Safari
+ 4  | sobre.php    | 22/03/2024 - 10:18:01 | Safari
+ 7  | contato.php  | 22/03/2024 - 10:18:11 | Safari
+12  | inicio.php   | 22/03/2024 - 10:22:50 | Safari
+13  | inicio.php   | 22/03/2024 - 10:22:54 | Safari
+ 5  | sobre.php    | 22/03/2024 - 10:22:55 | Safari
+ 8  | contato.php  | 22/03/2024 - 10:22:57 | Safari
+ 9  | contato.php  | 22/03/2024 - 10:22:59 | Safari
+14  | inicio.php   | 22/03/2024 - 10:23:00 | Safari
+ 6  | sobre.php    | 22/03/2024 - 10:23:01 | Safari
+15  | inicio.php   | 22/03/2024 - 10:23:03 | Safari
+10  | contato.php  | 22/03/2024 - 10:23:04 | Safari
+16  | inicio.php   | 22/03/2024 - 10:32:24 | Firefox
